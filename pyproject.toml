@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gci"
+version = "0.1.0"
+description = "Graphic Cmdline Interface"
+authors = ["NamelessDev <luxun070188@outlook.com>"]
+license = "GPLv3"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+PySide6-Fluent-Widgets = "^1.5.1"
+
+
+[[tool.poetry.source]]
+name = "mirrors"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+priority = "default"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
